@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "HW for Internet szolgáltatások és alkalmazások",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcell-szabo/internetszolgHF.git"
+  },
+  "author": "Bence Szollosi, Simon Szigetvari, Marcell Szabo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcell-szabo/internetszolgHF/issues"
+  },
+  "homepage": "https://github.com/marcell-szabo/internetszolgHF#readme"
+}
