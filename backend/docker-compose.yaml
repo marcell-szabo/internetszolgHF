@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      CONN_STRING: "mongodb://mongo:27017/internet"
+      PORT: 3000
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"

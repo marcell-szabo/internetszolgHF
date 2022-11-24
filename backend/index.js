@@ -2,6 +2,7 @@ import express from 'express'
 import router from './routing.js'
 import bodyParser from 'body-parser'
 //const session = require('express-session')
+const PORT = process.env.PORT || 3000
 const app = express()
 //app.set('view engine', 'ejs')
 
@@ -23,6 +24,6 @@ app.use((err, req, res, next) => {
     console.log(err);
 });
 
-const server = app.listen(3000, function () {
-    console.log("On: 3000")
+const server = app.listen(PORT, function () {
+    console.log(`On: ${PORT}`)
 })
