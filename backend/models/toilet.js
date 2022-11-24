@@ -8,12 +8,12 @@ var Toilet = db.model('Toilet', {
     opening_hours: String,
     ratings: [{
         username: String,
-        date: Date,
+        date: String,
         stars: {type: Number, min: 1, max: 5},
         content: String
     }],
     isfree: Boolean,
-    price: Number
+    price: String
 })
 
 export default Toilet
